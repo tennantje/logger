@@ -1,7 +1,7 @@
 {
   "name": "@tennantje/logger",
   "version": "1.0.3",
-  "description": "A Winston-based logger with TypeScript support",
+  "description": "A bare-bones, Winston-based logger that outputs structured JSON logs. 100% TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -31,6 +31,9 @@
   ],
   "dependencies": {
     "winston": "^3.19.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
