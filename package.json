@@ -1,6 +1,6 @@
 {
   "name": "@tennantje/logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A bare-bones, Winston-based logger that outputs structured JSON logs. 100% TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
